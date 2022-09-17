@@ -37,7 +37,7 @@ function client() {
   if (clientOne === clientTwo) {
     console.log("both variables have access to same instance");
   } else {
-    console.log("classes have different instance");
+    console.log("classes have access to different instances");
   }
 }
 
