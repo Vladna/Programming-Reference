@@ -16,7 +16,7 @@ class Singleton {
    * just one instance of each subclass around.
    */
   public static getClassInstance(): Singleton {
-    if (Singleton.instance) {
+    if (!Singleton.instance) {
       Singleton.instance = new Singleton();
     }
     return Singleton.instance;
