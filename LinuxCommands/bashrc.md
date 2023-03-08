@@ -1,5 +1,6 @@
 # Bashrc helpful enhancements
 ## Shortcut for moving backwards in directories 
+```
 b() {
     local dir=""
     local arg=""
@@ -9,3 +10,4 @@ b() {
     arg=${dir%/}
     cd "$arg" || exit
 }
+```
