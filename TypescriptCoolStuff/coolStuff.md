@@ -6,9 +6,6 @@
 function firstElement<Type>(arr: Type[]): Type | undefined {
   return arr[0];
 }
-<<<<<<< Updated upstream
-```
-=======
 
 function map<Input, Output>(arr: Input[], func: (arg: Input) => Output): Output[] {
   return arr.map(func);
@@ -29,4 +26,3 @@ function longest<Type extends { length: number }>(a: Type, b: Type) {
 
 // number arg -> Error! Numbers don't have a 'length' property
 ```
->>>>>>> Stashed changes
