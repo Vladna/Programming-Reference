@@ -1,4 +1,4 @@
-# Bashrc helpful enhancements
+# Bashrc enhancements
 ## Shortcut for moving backwards in directories 
 ```
 b() {
